@@ -1,22 +1,12 @@
-/* 
-====================================
-Global Styles
-====================================
-*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4; /* Light gray background like screenshot */
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-/* 
-====================================
-Header Styles
-====================================
-*/
 #header {
-    background-color: #0074e8; /* Blue banner */
+    background-color: #0074e8;
     color: white;
     text-align: center;
     padding: 25px;
@@ -32,12 +22,6 @@ Header Styles
     margin-top: 5px;
 }
 
-
-/* 
-====================================
-Main Content
-====================================
-*/
 #main-content {
     background-color: white;
     width: 80%;
@@ -45,23 +29,19 @@ Main Content
     padding: 20px;
 }
 
-/* Headings spacing */
 h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-/* Emphasized anatomy word */
 .important {
     color: red;
     font-weight: bold;
 }
 
-/* Lists spacing */
 ul, ol {
     margin-left: 20px;
 }
 
-/* Links styling */
 a {
     color: blue;
     text-decoration: none;
@@ -71,20 +51,15 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 
-====================================
-Quiz Section
-====================================
-*/
+
 #quiz-section {
-    background-color: #e6f6ff; /* Light blue quiz box */
+    background-color: #e6f6ff;
     padding: 15px;
     border: 1px solid #ccc;
     margin-top: 25px;
     position: relative;
 }
 
-/* Quiz image */
 #quiz-section img {
     width: 100px;
     position: absolute;
@@ -93,17 +68,12 @@ Quiz Section
     border: 3px solid purple;
 }
 
-/* Submit button */
 input[type="submit"] {
     margin-top: 10px;
     padding: 5px 10px;
 }
 
-/* 
-====================================
-Table Styles
-====================================
-*/
+
 #species-table table {
     width: 33%;
 }
@@ -129,11 +99,6 @@ th, td {
     text-align: left;
 }
 
-/* 
-====================================
-Footer
-====================================
-*/
 #footer {
     background-color: #ddd;
     text-align: center;
